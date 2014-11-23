@@ -117,3 +117,53 @@
 .dashboard-metric i {
     margin-right: 0.6em;
 }
+
+/* metrics bar */
+
+.bar-horizontal {
+    height: 36px;
+    background-color: rgba(255,255,255,0.4);
+    position: relative;
+    display: block;
+    margin-top: 20px;
+}
+
+.bar-horizontal-bar {
+    background: #fff;
+    height: 36px;
+    line-height: 36px;
+    color: #444;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 0.8em;
+    letter-spacing: 0.2em;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.bar-vertical {
+    position: absolute;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    background: rgba(200,200,200,0.5);
+}
+
+/* widget */
+.pure-table-center {
+    margin: 0 auto;
+}
+.pure-table-dark { color: #ddd; }
+.pure-table-dark .pure-table-odd { color: #444; }
+
+.weather {
+    padding-top: 60px;
+}
+footer {
+    background: rgb(20,20,20);
+    color: #aaa;
+    padding: 10px;
+    font-size: 0.6em;
+    font-weight: bold;
+}
