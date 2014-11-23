@@ -1,3 +1,13 @@
+/* global */
+
+@import url(http://weloveiconfonts.com/api/?family=fontawesome);
+
+/* fontawesome */
+[class*="fontawesome-"]:before {
+    font-family: 'FontAwesome', sans-serif;
+    font-style: normal;
+}
+
 .pure-menu {
     font-weight: lighter;
 }
@@ -26,6 +36,8 @@
     color: #efefef;
 }
 
+/* tile */
+
 .dashboard-piece {
     min-height: 300px;
     -webkit-box-sizing: border-box;
@@ -41,7 +53,7 @@
     background-color: #E73F3F;
 }
 
-.dashboard-piece-orangegb {
+.dashboard-piece-orangebg {
     background-color: #F76C27;
 }
 
@@ -61,6 +73,47 @@
     background-color: #798388;
 }
 
+/* inner formatting */
+
+.dashboard-piece-logo h1 {
+    line-height: 100px;
+}
+
+.dashboard-piece-logo svg {
+    margin-top: 80px;
+}
+
 .dashboard-piece h1 {
+    line-height: 300px;
     font-size: 3.6em;
+    margin: 0;
+}
+
+.dashboard-content {
+    position: relative;
+    z-index: 999;
+}
+
+.dashboard-content p {
+    font-weight: lighter;
+}
+
+.dashboard-content .light {
+    opacity: 0.4;
+    display: block;
+}
+
+.dashboard-content h2 i {
+    font-size: 4em;
+    opacity: 0.4;
+}
+
+.dashboard-metric {
+    text-transform: uppercase;
+    font-size: 1.6em;
+    line-height: 1;
+}
+
+.dashboard-metric i {
+    margin-right: 0.6em;
 }
